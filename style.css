@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15%;
+}
+
+button{
+    font-size: 4em;
+    height: 1.5em;
+    width: 1.5em;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+#rock{
+    background-color: red;
+}
+#paper{
+    background-color: rgb(24, 154, 235);
+}
+#scissors{
+    background-color: rgb(31, 180, 31);
+}
+.winners{
+    display: inline;
+}
+#user-score{
+    color:rgb(24, 154, 235)
+}
+#comp-score{
+    color: red;
+}
